@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Arita';
+  src: url(../font/Arita-dotum-Thin_OTF00.woff2) format('woff2'),
+      url(../font/Arita-dotum-Thin_OTF00.woff) format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Arita';
+    src: url(../font/Arita-dotum-Light_OTF00.woff2) format('woff2'),
+        url(../font/Arita-dotum-Light_OTF00.woff) format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arita';
+  src: url(../font/Arita-dotum-Medium_OTF00.woff2) format('woff2'),
+      url(../font/Arita-dotum-Medium_OTF00.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Arita';
+    src: url(../font/Arita-dotum-SemiBold_OTF00.woff2) format('woff2'),
+        url(../font/Arita-dotum-SemiBold_OTF00.woff) format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Arita-dotum';
+  src: url(../font/Arita-dotum-Bold_OTF00.woff2) format('woff2'),
+      url(../font/Arita-dotum-Bold_OTF00.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+

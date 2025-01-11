@@ -107,6 +107,23 @@ const shorts = new Swiper(".shorts", {
     },
   },
 
+  on: {
+    slideChangeTransitionStart: function () {
+      // 모든 비디오 일시 정지 및 시간 초기화
+      document.querySelectorAll('.swiper-slide video').forEach(video => {
+        video.pause();
+        video.currentTime = 0;
+      });
+    },
+    slideChangeTransitionEnd: function () {
+      // 현재 활성화된 슬라이드의 비디오 재생
+      const activeSlide = this.slides[this.activeIndex];
+      const activeVideo = activeSlide.querySelector('video');
+      if (activeVideo) {
+        activeVideo.play();
+      }
+    }
+  }
 });
 
 /*  섹션03 - 리미티드 스와이퍼 */

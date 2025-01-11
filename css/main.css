@@ -507,6 +507,7 @@ body {
   font-weight: 500;
   text-align: center;
 }
+
 .shorts {
   position: relative;
 }
@@ -529,9 +530,9 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   padding-top: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 1);
   border-radius: 50%;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 1);
   font-family: var(--tit-font);
   font-size: 3.5rem;
   font-weight: 500;
@@ -545,12 +546,25 @@ body {
 .shorts .swiper-slide {
   opacity: 0.7;
   transform: scale(0.8, 0.8);
+
 }
 
 .shorts .swiper-slide-active {
   opacity: 1;
-  transform: scale(1, 1);
 }
+
+
+.shorts .swiper-slide-active {
+  transform: scale(1);
+  transform-origin: center;
+}
+
+.shorts .swiper-slide-active b {
+  border: 1px solid rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 0.4);
+
+}
+
 
 
 @media(max-width:1400px) {

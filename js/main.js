@@ -88,13 +88,15 @@ const mv = new Swiper(".mv", {
 /* 섹션02-네스프레소타임 스와이퍼 -*/
 const shorts = new Swiper(".shorts", {
   autoplay: {
-    delay: 5000,
+    delay: 10000,
     disableOnInteraction: false,
   },
   loop: true,
-  speed: 4000,
+  speed: 3000,
   slidesPerView: 2,
   centeredSlides: true,
+   spaceBetween: 30,
+
 
   breakpoints: {
     768: {
